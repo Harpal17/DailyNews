@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWalkThroughBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Daily News"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_sub_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/device"
+        android:paddingBottom="16dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="16dp">
+
+
+        <View
+            android:id="@+id/view_mobile_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/color_slide1" />
+
+        <ImageView
+            android:id="@+id/iv_walkthrough"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_trekking"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_walkthrough_icon"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>
