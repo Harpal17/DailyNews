@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#32CD32</color>
+    <color name="colorAccent">#8AC34B</color>
     <color name="white">#ffffffff</color>
     <color name="black_overlay">#66000000</color>
 
@@ -15,4 +15,7 @@
     <color name="color_slide3">#00AFEF</color>
     <color name="color_slide4">#A98F71</color>
     <color name="color_slide5">#208494</color>
+
+    <color name="color_fb">#3B5998</color>
+    <color name="color_gplus">#DB4437</color>
 </resources>

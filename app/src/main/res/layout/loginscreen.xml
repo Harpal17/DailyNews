@@ -29,24 +29,45 @@
             android:ems="10"
             android:inputType="textPassword"
             android:hint="Password"/>
-        <Button
-            android:id="@+id/login_btn"
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LOGIN"
-            android:layout_marginTop="10dp"
-            />
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_10"
+            android:weightSum="1"
+            >
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="REGISTER"
+                />
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:layout_weight="0.5"
+                />
+        </LinearLayout>
+
         <Button
             android:id="@+id/login_fb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOGIN WITH FACEBOOK"
+            android:background="@color/color_fb"
+            android:layout_marginTop="@dimen/margin_8"
             />
         <Button
             android:id="@+id/login_gplus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOGIN WITH GOOGLE"
+            android:background="@color/color_gplus"
+            android:layout_marginTop="@dimen/margin_8"
             />
 
     </LinearLayout>
